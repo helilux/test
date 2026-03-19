@@ -9,7 +9,7 @@ std::string get_dump_filename(long timestamp) {
     
     char buffer[80];
     
-    std::string path = "/mnt/huge_disk/repo_backups/NSE_data_dump/NSE_FO/binary_data/";
+    std::string path = "aman";
     
     struct stat st = {0};
     std::string dir_check = path.substr(0, path.size()-1); 
