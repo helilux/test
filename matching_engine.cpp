@@ -9,7 +9,7 @@ std::string get_dump_filename(long timestamp) {
     
     char buffer[80];
     
-    std::string path = "aman";
+    std::string path = "/data.path/update_v2";
     
     struct stat st = {0};
     std::string dir_check = path.substr(0, path.size()-1); 
